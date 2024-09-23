@@ -1,0 +1,7 @@
+L = int(input())
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+max_day = L-(A*C + B*D)
+print(max_day)
